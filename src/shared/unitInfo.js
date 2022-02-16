@@ -410,7 +410,7 @@ const UnitInformation = [
                 evo3: "A Gramenian swordsman later counted among the 3 Blade Masters. After taking up a twin- bladed style not seen in any school, Arth dueled his father and won. While this lead to his expulsion, his father advised that he open a new school of his own to impart his style to a new generation. Arth rejected this and continued improving his skills, speaking to others only about swords.",
                 evo4: "A Gramenian swordsman later counted among the 3 Blade Masters. The story goes that when he heard of the massive war between Gods and Demons during his sword training, he immediately headed to the battlefield. Aligned with the Gods, Arth achieved many military victories, he once turned and bore witness to the unspeakable devastation that had been wrought. Shocked senseless, his blades dropped to the ground.",
                 evo5: "In the midst of the Great War between Gods and Demons, Arth dropped his blades and returned to his wartorn hometown, but took them up again upon seeing the devastation. This time, his blades would be used not to destroy, but to rebuild, with a pair of blades from his father. Armed with these new earth magic-infused swords, Arth fought to help others, coming to be known as the holy sword.",
-                evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of "Was I forgiven?" His sword skills are still passed won to the next generation.",
+                evoawk: "After he became a teacher of sword skills for Gramenia Republic, other than leaving the leaving the country once, he remained, and people greatly thanked him for his selfless devotion. On the other hand, he sometimes had a look of sorrow on his face. He hated to meet high officials on an extreme degree. He stayed single for his whole life. On his 80th birthday, surrounded by his disciples, he passed away with last words of "Was I forgiven?" His sword skills are still passed won to the next generation."
             }
     },
     { //Feena - Complete
@@ -11210,11 +11210,11 @@ const UnitInformation = [
                 evoawk: "Missing Lore Information, please contact site owner"
             }
     },
-    { //Altie - Missing Lore, Stats, Slots, Evolution
+    { //Altie - Complete
         id: 102476511,
         name: "Altie",
-        attribute: ,
-        type: ,
+        attribute: "Dark",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_102475511.png",
@@ -11227,32 +11227,33 @@ const UnitInformation = [
                 slot1: 5,
                 slot1type: "/db/Mines/thumbnail/magLB.png",
                 slot2: 5,
-                slot2type: "/db/Mines/thumbnail/physLB.png",
+                slot2type: "/db/Mines/thumbnail/magLB.png",
                 slot3: 4,
-                slot3type: "/db/Mines/thumbnail/defLB.png"
+                slot3type: "/db/Mines/thumbnail/phyLB.png"
             },
         stats: 
             {
-                hp: ,
-                hpplus: ,
-                atk: ,
-                atkplus: ,
-                def: ,
-                defplus: 
+                hp: 6300,
+                hpplus: 950,
+                atk: 2268,
+                atkplus: 352,
+                def: 1950,
+                defplus: 302
             },
         skillset: 
             {
-                skill: "",
-                skillbreak: ,
-                arts: "",
-                artsbreak: ,
-                truearts: "",
-                trueartsbreak: 
+                skill: "10s CT - 1800% Dark DMG (MAG). Increase own Arts by 5.",
+                skillbreak: 900,
+                arts: "13000% Dark DMG (MAG). Increase Break PWR of this Arts by 8% per Death Count (up to 104%).",
+                artsbreak: 2000,
+                truearts: "20000% Dark DMG (MAG). If own Death Count is 13, increase this True Arts' DMG by 200%. Consume 15% of Allies' (except self) HP, increase Allies' Arts by 20.",
+                trueartsbreak: 3000
             },
         passive: 
             {
-                ability1: "",
-                ability2: ""
+                ability1: "Gain a Death Counter that increases its Count by the total number of Enemies and Allies that have died during the current Quest. Increase own Skill CT REC by 8% per Death Count (up to 104%).",
+                ability2: "Increase own Arts by 2/s.",
+                ability3: "Increase Curse RES by 100%."
             }, 
         evolution: 
             {
@@ -11262,28 +11263,28 @@ const UnitInformation = [
                     mat1amt: 30,
                     mat2: "/db/Icons/dungeon_drops/material_thumbnail_paradisos.png",
                     mat2amt: 1,
-                    mat3: "/db/Icons/dungeon_drops/fragFosradius.png",
+                    mat3: "/db/Icons/dungeon_drops/fragRagsherumPhantom.png",
                     mat3amt: 4,
-                    hover3: "Fosradius",
-                    mat4: "/db/Icons/dungeon_drops/fragCodeXTF.png",
-                    mat4amt: 4,
-                    hover4: "Code-XTF",
-                    mat5: "/db/Icons/dungeon_drops/fragAerugraxes.png",
-                    mat5amt: 5,
-                    hover5: "Aerugraxes"
+                    hover3: "RagsherumPhantom",
+                    mat4: "/db/Icons/dungeon_drops/fragGoldola.png",
+                    mat4amt: 3,
+                    hover4: "Goldola",
+                    mat5: "/db/Icons/dungeon_drops/fragRadachne.png",
+                    mat5amt: 3,
+                    hover5: "Radachne"
                 }
             },
         lore: 
             {   
-                evo5: "Missing Lore Information, please contact site owner",
-                evoawk: "Missing Lore Information, please contact site owner"
+                evo5: "A necromancer who destroyed cities and nations early in the Ancient War. They say that she was capable of undending brutality on the orders of a certain beloved Demoness. Her unusual values system meant she was apt to call the spirits of the dead she used her "friends," and looked down on the living as prisoners in the flesh. Her nature was shaped by the legendary Flame Giant, and this is evidenced by the terrible brutality she showed when dispatched to a certain territory.",
+                evoawk: "Her eyes sparkled at the resurrected Flame Giant of legend. She would not balk at turning an entire nation into a realm of the dead to earn the praise and favor of her beloved Demoness. All that remained was the elimination of a certain irritating sorceress, companion to the Giant. However, the needed Giant only obeyed the girl's orders. The only choice is to turn her into a "friend." With that understanding, she gladly went among the teeming spirtis."
             }
     },
     { //Berwick (Magic) - Missing Lore, Stats, Slots, Evolution, True Weapon, TW Image
         id: 102486112,
         name: "Berwick (Magic)",
-        attribute: ,
-        type: ,
+        attribute: "Fire",
+        type: "Demon",
         image: 
             {
                 detail5: "/db/Units/Detail/unit_detail_102485112.png",
